@@ -11,12 +11,7 @@ export default class NoteEditor extends React.Component {
 
     /**
      * Note Editor view
-     * @param {{
-     * mode: 'EDIT_NOTE'|'ADD_NOTE',
-     * userData:{login:string, password:string},
-     * onSuccess?:function,
-     * onExit?:function,
-     * noteID?: string}} props
+     * @param {{mode: 'EDIT_NOTE'|'ADD_NOTE', userData:{login: string, password: string}, onSuccess?: function, onExit?: function, noteID?: string}} props
      */
     constructor(props) {
         super(props);
