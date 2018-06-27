@@ -12,4 +12,5 @@ Project is a simple mobile application where user after sign in has access to hi
 # Technical
 * Project was tested via Expo 2.24.4 on iOS 11.4
 * Files located in 'php_files' normally would be located on server, but in my case they were stored in 'htdocs' folder provided by XAMPP.
+* 'notes_app.sql' file contains exported database with 'Add the CREATE DATABASE / USE statement' option selected
 * 'LOCALHOST.js' located in app directory contains my IP address.
